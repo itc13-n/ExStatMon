@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xH0iHASVUDu9AL8YWhg0glhv/Iyj+wiseVWndlm4v2V4PNqfiuELstHDwrmNG1Alxo9yc1o+wJFY5WemIf7xBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Intercepter\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512"
+  ],
+  "logs": []
+}

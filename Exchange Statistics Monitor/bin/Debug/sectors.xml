@@ -1,0 +1,215 @@
+<sectorsInfo>
+  <Company-Sector name="Газпром" sector="OilAndGas" />
+  <Company-Sector name="Лукойл" sector="OilAndGas" />
+  <Company-Sector name="НОВАТЭК" sector="OilAndGas" />
+  <Company-Sector name="Роснефть" sector="OilAndGas" />
+  <Company-Sector name="ГМК Норникель" sector="MetalMinning" />
+  <Company-Sector name="Сургутнефтегаз" sector="OilAndGas" />
+  <Company-Sector name="Газпромнефть" sector="OilAndGas" />
+  <Company-Sector name="Полюс золото" sector="MetalMinning" />
+  <Company-Sector name="Татнефть" sector="OilAndGas" />
+  <Company-Sector name="Транснефть" sector="OilAndGas" />
+  <Company-Sector name="Яндекс" sector="Media" />
+  <Company-Sector name="НЛМК" sector="MetalMinning" />
+  <Company-Sector name="Северсталь" sector="MetalMinning" />
+  <Company-Sector name="X5 Retail Group" sector="Consumer" />
+  <Company-Sector name="МТС" sector="Media" />
+  <Company-Sector name="Полиметалл" sector="MetalMinning" />
+  <Company-Sector name="ИнтерРАО" sector="Electricity" />
+  <Company-Sector name="АЛРОСА" sector="MetalMinning" />
+  <Company-Sector name="En+" sector="MetalMinning" />
+  <Company-Sector name="Магнит" sector="Consumer" />
+  <Company-Sector name="ММК" sector="MetalMinning" />
+  <Company-Sector name="Русал" sector="MetalMinning" />
+  <Company-Sector name="Мегафон" sector="Media" />
+  <Company-Sector name="Mail.Ru Group" sector="Media" />
+  <Company-Sector name="Уралкалий" sector="Chemicals" />
+  <Company-Sector name="ФосАгро" sector="Chemicals" />
+  <Company-Sector name="Русгидро" sector="Electricity" />
+  <Company-Sector name="Башнефть" sector="OilAndGas" />
+  <Company-Sector name="Россети" sector="Electricity" />
+  <Company-Sector name="Группа ПИК" sector="not_specified" />
+  <Company-Sector name="Московская биржа" sector="Financial" />
+  <Company-Sector name="VEON" sector="Media" />
+  <Company-Sector name="ФСК ЕЭС" sector="Electricity" />
+  <Company-Sector name="Ростелеком" sector="Media" />
+  <Company-Sector name="Акрон" sector="Chemicals" />
+  <Company-Sector name="МГТС" sector="Media" />
+  <Company-Sector name="ВСМПО-АВИСМА" sector="MetalMinning" />
+  <Company-Sector name="НМТП" sector="Transport" />
+  <Company-Sector name="НКНХ" sector="Chemicals" />
+  <Company-Sector name="Юнипро" sector="Electricity" />
+  <Company-Sector name="АФК Система" sector="Financial" />
+  <Company-Sector name="Казаньоргсинтез" sector="Chemicals" />
+  <Company-Sector name="Русснефть" sector="OilAndGas" />
+  <Company-Sector name="ОАК" sector="not_specified" />
+  <Company-Sector name="Трансконтейнер" sector="Transport" />
+  <Company-Sector name="Globaltrans" sector="Transport" />
+  <Company-Sector name="ЧТПЗ" sector="MetalMinning" />
+  <Company-Sector name="Аэрофлот" sector="Transport" />
+  <Company-Sector name="Русагро" sector="not_specified" />
+  <Company-Sector name="ОГК-2" sector="Electricity" />
+  <Company-Sector name="Мосэнерго" sector="Electricity" />
+  <Company-Sector name="Лента" sector="Consumer" />
+  <Company-Sector name="КИВИ (QIWI)" sector="Media" />
+  <Company-Sector name="Детский Мир" sector="Consumer" />
+  <Company-Sector name="Распадская" sector="MetalMinning" />
+  <Company-Sector name="Черкизово" sector="not_specified" />
+  <Company-Sector name="ЛСР Группа" sector="not_specified" />
+  <Company-Sector name="М.Видео" sector="Consumer" />
+  <Company-Sector name="Росгосстрах" sector="Financial" />
+  <Company-Sector name="Ленэнерго" sector="Electricity" />
+  <Company-Sector name="ТМК" sector="not_specified" />
+  <Company-Sector name="Иркутскэнерго" sector="Electricity" />
+  <Company-Sector name="МОЭСК" sector="Electricity" />
+  <Company-Sector name="АВТОВАЗ" sector="not_specified" />
+  <Company-Sector name="Протек" sector="Chemicals" />
+  <Company-Sector name="САФМАР" sector="not_specified" />
+  <Company-Sector name="Славнефть Мегионнефтегаз" sector="OilAndGas" />
+  <Company-Sector name="ТГК-1" sector="Electricity" />
+  <Company-Sector name="Алроса Нюрба" sector="not_specified" />
+  <Company-Sector name="ИРКУТ" sector="not_specified" />
+  <Company-Sector name="Мостотрест" sector="not_specified" />
+  <Company-Sector name="КАМАЗ" sector="not_specified" />
+  <Company-Sector name="Дикси" sector="Consumer" />
+  <Company-Sector name="Мечел" sector="MetalMinning" />
+  <Company-Sector name="Энел Россия" sector="Electricity" />
+  <Company-Sector name="КуйбышевАзот" sector="Chemicals" />
+  <Company-Sector name="ОКС" sector="not_specified" />
+  <Company-Sector name="Белуга Групп" sector="Consumer" />
+  <Company-Sector name="ЯТЭК" sector="OilAndGas" />
+  <Company-Sector name="Аптеки 36 и 6" sector="Consumer" />
+  <Company-Sector name="Эталон" sector="not_specified" />
+  <Company-Sector name="Ютэйр" sector="Transport" />
+  <Company-Sector name="ФГ Будущее" sector="Financial" />
+  <Company-Sector name="ОВК" sector="Transport" />
+  <Company-Sector name="Отисифарм" sector="Chemicals" />
+  <Company-Sector name="Мать и Дитя (MD)" sector="not_specified" />
+  <Company-Sector name="МРСК Сибири" sector="Electricity" />
+  <Company-Sector name="Селигдар" sector="MetalMinning" />
+  <Company-Sector name="МРСК Центра и Приволжья" sector="Electricity" />
+  <Company-Sector name="Славнефть-ЯНОС" sector="OilAndGas" />
+  <Company-Sector name="ДВМП" sector="Transport" />
+  <Company-Sector name="Кубаньэнерго" sector="Electricity" />
+  <Company-Sector name="Южный Кузбасс" sector="MetalMinning" />
+  <Company-Sector name="Русская аквакультура" sector="not_specified" />
+  <Company-Sector name="НКХП" sector="not_specified" />
+  <Company-Sector name="КТК" sector="OilAndGas" />
+  <Company-Sector name="Саратовский НПЗ" sector="OilAndGas" />
+  <Company-Sector name="ТНС энерго" sector="Electricity" />
+  <Company-Sector name="МРСК Урала" sector="Electricity" />
+  <Company-Sector name="МРСК Волги" sector="Electricity" />
+  <Company-Sector name="Абрау-Дюрсо" sector="not_specified" />
+  <Company-Sector name="Павловский автобус" sector="not_specified" />
+  <Company-Sector name="МРСК Центра" sector="Electricity" />
+  <Company-Sector name="Русолово" sector="MetalMinning" />
+  <Company-Sector name="Лензолото" sector="MetalMinning" />
+  <Company-Sector name="Коршуновский ГОК" sector="MetalMinning" />
+  <Company-Sector name="Инград" sector="not_specified" />
+  <Company-Sector name="ЦМТ" sector="not_specified" />
+  <Company-Sector name="Камчатскэнерго" sector="not_specified" />
+  <Company-Sector name="ОМЗ" sector="not_specified" />
+  <Company-Sector name="Соллерс" sector="not_specified" />
+  <Company-Sector name="Галс Девелопмент" sector="not_specified" />
+  <Company-Sector name="ЧМК" sector="not_specified" />
+  <Company-Sector name="Курганская ГК" sector="not_specified" />
+  <Company-Sector name="ГАЗ" sector="not_specified" />
+  <Company-Sector name="Уральская кузница" sector="not_specified" />
+  <Company-Sector name="Центральный телеграф" sector="not_specified" />
+  <Company-Sector name="Квадра" sector="not_specified" />
+  <Company-Sector name="Пермэнергосбыт" sector="not_specified" />
+  <Company-Sector name="Таттелеком" sector="not_specified" />
+  <Company-Sector name="Бурятзолото" sector="not_specified" />
+  <Company-Sector name="ТГК-2" sector="not_specified" />
+  <Company-Sector name="Энергия РКК" sector="not_specified" />
+  <Company-Sector name="Красноярскэнергосбыт" sector="not_specified" />
+  <Company-Sector name="МЕРИДИАН" sector="not_specified" />
+  <Company-Sector name="МРСК Северо-Запада" sector="not_specified" />
+  <Company-Sector name="Белон" sector="not_specified" />
+  <Company-Sector name="Европейская Электротехника" sector="not_specified" />
+  <Company-Sector name="МРСК Юга" sector="not_specified" />
+  <Company-Sector name="ТГК-14" sector="not_specified" />
+  <Company-Sector name="МагадЭн" sector="not_specified" />
+  <Company-Sector name="ОМПК" sector="not_specified" />
+  <Company-Sector name="МРСК Северного Кавказа" sector="not_specified" />
+  <Company-Sector name="ТНС энерго Воронеж" sector="not_specified" />
+  <Company-Sector name="ТНС энерго Ростов-на-Дону" sector="not_specified" />
+  <Company-Sector name="Обувь России" sector="not_specified" />
+  <Company-Sector name="Красный Октябрь" sector="not_specified" />
+  <Company-Sector name="Якутскэнерго" sector="not_specified" />
+  <Company-Sector name="Русполимет" sector="not_specified" />
+  <Company-Sector name="ТНС энерго Ярославль" sector="not_specified" />
+  <Company-Sector name="ТНС энерго Кубань" sector="not_specified" />
+  <Company-Sector name="ЧКПЗ" sector="not_specified" />
+  <Company-Sector name="Заволжский моторный завод" sector="not_specified" />
+  <Company-Sector name="Газпром РнД  (Ростовоблгаз)" sector="not_specified" />
+  <Company-Sector name="АСКО" sector="not_specified" />
+  <Company-Sector name="Звезда" sector="not_specified" />
+  <Company-Sector name="Северо-Западное Пароходство" sector="not_specified" />
+  <Company-Sector name="Globaltruck" sector="not_specified" />
+  <Company-Sector name="ЮУНК" sector="not_specified" />
+  <Company-Sector name="НПО Наука" sector="not_specified" />
+  <Company-Sector name="Ашинский МЗ" sector="not_specified" />
+  <Company-Sector name="Рязаньэнергосбыт РЭСК" sector="not_specified" />
+  <Company-Sector name="ИСКЧ" sector="not_specified" />
+  <Company-Sector name="Самараэнерго" sector="not_specified" />
+  <Company-Sector name="ТНС энерго Марий Эл" sector="not_specified" />
+  <Company-Sector name="СМЗ" sector="not_specified" />
+  <Company-Sector name="ТРК" sector="not_specified" />
+  <Company-Sector name="Нижнекамскшина" sector="not_specified" />
+  <Company-Sector name="Химпром" sector="not_specified" />
+  <Company-Sector name="Сахалинэнерго" sector="not_specified" />
+  <Company-Sector name="Нефтекамский автозавод" sector="not_specified" />
+  <Company-Sector name="ЧЗПСН" sector="not_specified" />
+  <Company-Sector name="РБК" sector="not_specified" />
+  <Company-Sector name="Калужская сбытовая компания" sector="not_specified" />
+  <Company-Sector name="Фармсинтез" sector="not_specified" />
+  <Company-Sector name="Росинтер" sector="not_specified" />
+  <Company-Sector name="Челябэнергосбыт" sector="not_specified" />
+  <Company-Sector name="ДЗРД - Донской завод радиодеталей" sector="not_specified" />
+  <Company-Sector name="Ижсталь" sector="not_specified" />
+  <Company-Sector name="ТЗА" sector="not_specified" />
+  <Company-Sector name="Саратовэнерго" sector="not_specified" />
+  <Company-Sector name="Астраханэнергосбыт" sector="not_specified" />
+  <Company-Sector name="Волгоградэнергосбыт" sector="not_specified" />
+  <Company-Sector name="ДИОД" sector="not_specified" />
+  <Company-Sector name="ДЭСК" sector="not_specified" />
+  <Company-Sector name="Мордовэнергосбыт" sector="not_specified" />
+  <Company-Sector name="Омскшина" sector="not_specified" />
+  <Company-Sector name="Ставропольэнергосбыт" sector="not_specified" />
+  <Company-Sector name="Красный котельщик" sector="not_specified" />
+  <Company-Sector name="левенгук" sector="not_specified" />
+  <Company-Sector name="Арсагера" sector="not_specified" />
+  <Company-Sector name="ЕТС" sector="not_specified" />
+  <Company-Sector name="Русгрэйн" sector="not_specified" />
+  <Company-Sector name="Башинформсвязь" sector="not_specified" />
+  <Company-Sector name="Наука-Связь" sector="not_specified" />
+  <Company-Sector name="ГИТ" sector="not_specified" />
+  <Company-Sector name="ВХЗ" sector="not_specified" />
+  <Company-Sector name="Тантал" sector="not_specified" />
+  <Company-Sector name="ТКСМ" sector="not_specified" />
+  <Company-Sector name="GTL" sector="not_specified" />
+  <Company-Sector name="Мультисистема" sector="not_specified" />
+  <Company-Sector name="Роллман" sector="not_specified" />
+  <Company-Sector name="Медиахолдинг" sector="not_specified" />
+  <Company-Sector name="Владимирэнергосбыт" sector="not_specified" />
+  <Company-Sector name="Вторресурсы" sector="not_specified" />
+  <Company-Sector name="Сибирский гостинец" sector="not_specified" />
+  <Company-Sector name="МедиаВиМ" sector="not_specified" />
+  <Company-Sector name="Мотовилихинские заводы" sector="not_specified" />
+  <Company-Sector name="ЛЭСК" sector="not_specified" />
+  <Company-Sector name="HeadHunter" sector="not_specified" />
+  <Company-Sector name="КОКС" sector="not_specified" />
+  <Company-Sector name="ЧЦЗ" sector="not_specified" />
+  <Company-Sector name="Совкомфлот" sector="not_specified" />
+  <Company-Sector name="Т Плюс" sector="not_specified" />
+  <Company-Sector name="ТКЗ" sector="not_specified" />
+  <Company-Sector name="Плазмек" sector="not_specified" />
+  <Company-Sector name="РАО ЭС Востока" sector="not_specified" />
+  <Company-Sector name="Дорогобуж" sector="not_specified" />
+  <Company-Sector name="Мурманская ТЭЦ" sector="not_specified" />
+  <Company-Sector name="Окей" sector="not_specified" />
+  <Company-Sector name="Морион" sector="not_specified" />
+  <Company-Sector name="Евраз" sector="not_specified" />
+  <Company-Sector name="PETROPAVLOVSK" sector="not_specified" />
+</sectorsInfo>
