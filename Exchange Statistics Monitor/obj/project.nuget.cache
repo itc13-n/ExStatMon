@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xH0iHASVUDu9AL8YWhg0glhv/Iyj+wiseVWndlm4v2V4PNqfiuELstHDwrmNG1Alxo9yc1o+wJFY5WemIf7xBg==",
+  "dgSpecHash": "UUH1LDoRkoliMH63861yu28YIYedOVIxaqhWoA8PywypH2rIDYiY6CtSk4g3IFsyxeZrpMYO9OkQ6OfdnWP88Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
+  "projectFilePath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\ExStatMon\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Intercepter\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512"
   ],

@@ -78,14 +78,14 @@
             // сортироватьToolStripMenuItem
             // 
             this.сортироватьToolStripMenuItem.Name = "сортироватьToolStripMenuItem";
-            this.сортироватьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сортироватьToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.сортироватьToolStripMenuItem.Text = "Сортировать ...";
             this.сортироватьToolStripMenuItem.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.СортироватьToolStripMenuItem_DropDownItemClicked);
             // 
             // выбратьСтолбцыToolStripMenuItem
             // 
             this.выбратьСтолбцыToolStripMenuItem.Name = "выбратьСтолбцыToolStripMenuItem";
-            this.выбратьСтолбцыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выбратьСтолбцыToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.выбратьСтолбцыToolStripMenuItem.Text = "Выбрать столбцы";
             this.выбратьСтолбцыToolStripMenuItem.Click += new System.EventHandler(this.ВыбратьСтолбцыToolStripMenuItem_Click);
             // 

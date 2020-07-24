@@ -58,7 +58,7 @@ namespace Exchange_Statistics_Monitor
                     for (int i = 0; i < companies.Length; i++)
                     {
                         dataGridViewUnsorted.Rows[i].HeaderCell.Value = companies[i].Name;
-                        dataGridViewUnsorted.RowHeadersWidth = 100;
+                        dataGridViewUnsorted.RowHeadersWidth = 300;
                         for (int j = 0; j < dataGridViewUnsorted.ColumnCount; j++)
                         {
                             dataGridViewUnsorted.Columns[j].HeaderText = visibleFields[j];
@@ -137,9 +137,18 @@ namespace Exchange_Statistics_Monitor
                     DataGridView sectorDGV = new DataGridView();
                     ((System.ComponentModel.ISupportInitialize)(sectorDGV)).BeginInit();
                     sectorDGV.Location = new System.Drawing.Point(40, sectorLabel.Location.Y + sectorLabel.Size.Height + 2);
-                    sectorDGV.Size = new System.Drawing.Size(tabPanel.Width - 80, 500);
+                    if (i == 0)
+                    {
+                        sectorDGV.Size = new System.Drawing.Size(tabPanel.Width - 80, 500);
+                    }
+                    else
+                    {
+                        sectorDGV.Size = new System.Drawing.Size(previousDGV.Size.Width, 500);
+                    }
+                    
                     sectorDGV.Name = "dataGridViewBySector" + listOfSectors[i];
                     sectorDGV.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
+                    sectorDGV.RowHeadersWidth = 300;
                     ((System.ComponentModel.ISupportInitialize)(sectorDGV)).EndInit();
                     FillDGV(sectorDGV, companiesBySector[i], i);
 
@@ -148,12 +157,13 @@ namespace Exchange_Statistics_Monitor
                     previousDGV = sectorDGV;
 
                 }
+                
                 return tabPage;
             }
             else
             {
                 throw new NullReferenceException("Sort index is invalid"); // if this appears check for conformity between
-                                                                           // ToolStripMenyItems and mentioned index values
+                                                                           // ToolStripMenyItems and existing index values
                                                                            // (prbably missing implementation)
             }
 
@@ -161,10 +171,10 @@ namespace Exchange_Statistics_Monitor
 
         private static void DataGridViewUnsorted_Click(object sender, EventArgs e)
         {
-            DataGridView dgv = sender as DataGridView;
-            Form f = new FormSectorSet(companies[dgv.SelectedRows[0].Index]);
-            f.ShowDialog();
-            f.Dispose();
+            //DataGridView dgv = sender as DataGridView;
+            //Form f = new FormSectorSet(companies[dgv.SelectedRows[0].Index]);
+            //f.ShowDialog();
+            //f.Dispose();
         }
 
         private static void FillDGV(DataGridView dGV, List<Company> companies)
@@ -183,7 +193,6 @@ namespace Exchange_Statistics_Monitor
             for (int i = 0; i < companies.Count; i++)
             {
                 dGV.Rows[i].HeaderCell.Value = companies[i].Name;
-                dGV.RowHeadersWidth = 100;
                 for (int j = 0; j < dGV.ColumnCount; j++)
                 {
                     dGV.Columns[j].HeaderText = visibleFields[j];

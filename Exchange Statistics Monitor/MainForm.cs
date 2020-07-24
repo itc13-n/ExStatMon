@@ -23,6 +23,12 @@ namespace Exchange_Statistics_Monitor
             InitializeComponent();
         }
 
+        public void RefreshPage()
+        {
+            tabControl1.TabPages.Remove(tabControl1.TabPages[0]);
+            tabControl1.TabPages.Add(LayoutTemplates.GetTabPage(SortIndex));
+        }
+
         private async Task<Company> GetCompany(string parPair1, string parPair2)
         {
             Company company = await Task.Run(() => new Company(parPair1, parPair2));
@@ -79,12 +85,12 @@ namespace Exchange_Statistics_Monitor
                 Form f = new SetColumnsFormBySector();
                 f.ShowDialog();
             }
+            Refresh();
         }
 
         private void ToolStripButtonRefresh_Click(object sender, System.EventArgs e)
         {
-            tabControl1.TabPages.Remove(tabControl1.TabPages[0]);
-            tabControl1.TabPages.Add(LayoutTemplates.GetTabPage(SortIndex));
+            RefreshPage();
         }
 
         private async void MainForm_Load(object sender, EventArgs e)
@@ -105,6 +111,5 @@ namespace Exchange_Statistics_Monitor
             loadScreen.Close();
             loadScreen.Dispose();
         }
-
     }
 }

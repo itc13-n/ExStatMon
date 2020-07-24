@@ -1,8 +1,8 @@
 <fields>
   <unsorted>
-    <field name="Добычанефти,млнт" visible="0" />
-    <field name="Переработканефти,млнт" visible="0" />
-    <field name="Добычагаза,млрдм3" visible="0" />
+    <field name="Добычанефти,млнт" visible="1" />
+    <field name="Переработканефти,млнт" visible="1" />
+    <field name="Добычагаза,млрдм3" visible="1" />
     <field name="Экспортгаза,млрдм3" visible="0" />
     <field name="Ценагазанаэкспорт,$/1000м3" visible="0" />
     <field name="Выручка,млрдруб" visible="0" />
@@ -66,29 +66,29 @@
     <field name="Продажистали,млнт" visible="0" />
     <field name="Доляпродажнаэкспорт,%" visible="0" />
     <field name="Загрузкамощности,%" visible="0" />
-    <field name="Себестоимостьсляба,$/т" visible="0" />
-    <field name="Ценамет/прод,$/т" visible="0" />
     <field name="Числомагазинов,шт" visible="0" />
     <field name="Открытоновыхмагазинов,шт" visible="0" />
     <field name="Общ.площадьмагазинов,тыс.м2" visible="0" />
     <field name="Среднийчек,руб" visible="0" />
+    <field name="Себестоимостьсляба,$/т" visible="0" />
+    <field name="Ценамет/прод,$/т" visible="0" />
     <field name="Акт.абоненты,млнчел" visible="0" />
     <field name="ARPU,$/чел" visible="0" />
-    <field name="Установленнаямощность,ГВт" visible="1" />
+    <field name="Установленнаямощность,ГВт" visible="0" />
     <field name="Установл.тепл.мощность,Гкал/ч" visible="0" />
-    <field name="Выработкаэлектроэнергии,ТВт*ч" visible="1" />
+    <field name="Выработкаэлектроэнергии,ТВт*ч" visible="0" />
     <field name="Ср.ценареализацииэ/э,руб/кВт*ч" visible="0" />
-    <field name="Отпускэ/эпотребителямизсети,млрдкВт*ч" visible="1" />
+    <field name="Отпускэ/эпотребителямизсети,млрдкВт*ч" visible="0" />
     <field name="Отпусктепл.энергии,млнГкал" visible="0" />
     <field name="КИУМ,%" visible="0" />
     <field name="Цена/мощность,руб/кВт" visible="0" />
+    <field name="Сопоставимыепродажи,LFL,%" visible="0" />
+    <field name="Трафик,%" visible="0" />
+    <field name="Среднийчек,%" visible="0" />
     <field name="Обработкаруды,млнт" visible="0" />
     <field name="Добычаалмазов,млнкарат" visible="0" />
     <field name="Продажаалмазов,млнкарат" visible="0" />
     <field name="Содержаниеалмазов,карат/т" visible="0" />
-    <field name="Сопоставимыепродажи,LFL,%" visible="0" />
-    <field name="Трафик,%" visible="0" />
-    <field name="Среднийчек,%" visible="0" />
     <field name="Объемпродажтруб,млнт" visible="0" />
     <field name="Производствоалюминия,тыст" visible="0" />
     <field name="Продажиалюминия,тыст" visible="0" />
@@ -190,12 +190,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="0" />
@@ -206,13 +206,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -313,12 +313,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -329,13 +329,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -436,12 +436,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -452,13 +452,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -559,12 +559,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -575,13 +575,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -682,12 +682,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -698,13 +698,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -805,12 +805,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -821,13 +821,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -928,12 +928,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -944,13 +944,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -1051,12 +1051,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -1067,13 +1067,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />
@@ -1174,12 +1174,12 @@
       <field Name="Продажистали,млнт" visible="0" />
       <field Name="Доляпродажнаэкспорт,%" visible="0" />
       <field Name="Загрузкамощности,%" visible="0" />
-      <field Name="Себестоимостьсляба,$/т" visible="0" />
-      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Числомагазинов,шт" visible="0" />
       <field Name="Открытоновыхмагазинов,шт" visible="0" />
       <field Name="Общ.площадьмагазинов,тыс.м2" visible="0" />
       <field Name="Среднийчек,руб" visible="0" />
+      <field Name="Себестоимостьсляба,$/т" visible="0" />
+      <field Name="Ценамет/прод,$/т" visible="0" />
       <field Name="Акт.абоненты,млнчел" visible="0" />
       <field Name="ARPU,$/чел" visible="0" />
       <field Name="Установленнаямощность,ГВт" visible="1" />
@@ -1190,13 +1190,13 @@
       <field Name="Отпусктепл.энергии,млнГкал" visible="0" />
       <field Name="КИУМ,%" visible="0" />
       <field Name="Цена/мощность,руб/кВт" visible="0" />
+      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
+      <field Name="Трафик,%" visible="0" />
+      <field Name="Среднийчек,%" visible="0" />
       <field Name="Обработкаруды,млнт" visible="0" />
       <field Name="Добычаалмазов,млнкарат" visible="0" />
       <field Name="Продажаалмазов,млнкарат" visible="0" />
       <field Name="Содержаниеалмазов,карат/т" visible="0" />
-      <field Name="Сопоставимыепродажи,LFL,%" visible="0" />
-      <field Name="Трафик,%" visible="0" />
-      <field Name="Среднийчек,%" visible="0" />
       <field Name="Объемпродажтруб,млнт" visible="0" />
       <field Name="Производствоалюминия,тыст" visible="0" />
       <field Name="Продажиалюминия,тыст" visible="0" />

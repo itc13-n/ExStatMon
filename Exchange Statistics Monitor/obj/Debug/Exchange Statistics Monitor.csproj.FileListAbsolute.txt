@@ -16,3 +16,21 @@ C:\Users\Intercepter\source\Exchange Statistics Monitor\Exchange Statistics Moni
 C:\Users\Intercepter\source\Exchange Statistics Monitor\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.LoadingScreen.resources
 C:\Users\Intercepter\source\Exchange Statistics Monitor\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.LoadingOptions.resources
 C:\Users\Intercepter\source\Exchange Statistics Monitor\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.SetColumnsFormBySector.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\bin\Debug\Exchange Statistics Monitor.exe.config
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\bin\Debug\Exchange Statistics Monitor.exe
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\bin\Debug\Exchange Statistics Monitor.pdb
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.csprojAssemblyReference.cache
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.FormSectorSet.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.LoadingOptions.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.LoadingScreen.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.MainForm.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.Properties.Resources.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.SetColumnsForm.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange_Statistics_Monitor.SetColumnsFormBySector.resources
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.csproj.GenerateResource.cache
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.csproj.CoreCompileInputs.cache
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.csproj.CopyComplete
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.exe
+C:\Users\Intercepter\source\Exchange Statistics Monitor\ExStatMon\Exchange Statistics Monitor\obj\Debug\Exchange Statistics Monitor.pdb

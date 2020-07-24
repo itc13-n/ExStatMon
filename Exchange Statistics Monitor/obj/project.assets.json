@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
+      "projectUniqueName": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\ExStatMon\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
       "projectName": "Exchange Statistics Monitor",
-      "projectPath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
+      "projectPath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\ExStatMon\\Exchange Statistics Monitor\\Exchange Statistics Monitor.csproj",
       "packagesPath": "C:\\Users\\Intercepter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\Exchange Statistics Monitor\\obj\\",
+      "outputPath": "C:\\Users\\Intercepter\\source\\Exchange Statistics Monitor\\ExStatMon\\Exchange Statistics Monitor\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

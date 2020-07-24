@@ -70,6 +70,7 @@ namespace Exchange_Statistics_Monitor
 
         private void ButtonCancel_Click(object sender, EventArgs e)
         {
+            
             this.Close();
         }
     }
