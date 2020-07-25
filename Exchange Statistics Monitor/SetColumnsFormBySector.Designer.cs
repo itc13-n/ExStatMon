@@ -130,7 +130,6 @@
             this.listBoxVisible.FormattingEnabled = true;
             this.listBoxVisible.Location = new System.Drawing.Point(12, 52);
             this.listBoxVisible.Name = "listBoxVisible";
-            this.listBoxVisible.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBoxVisible.Size = new System.Drawing.Size(195, 420);
             this.listBoxVisible.TabIndex = 9;
             // 

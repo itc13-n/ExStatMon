@@ -64,6 +64,11 @@ namespace Exchange_Statistics_Monitor
 
         private void ButtonSave_Click(object sender, EventArgs e)
         {
+            if (listBoxVisible.Items.Count < 1)
+            {
+                MessageBox.Show("Пожалуйста, выберите хотя бы один столбец для отображения!");
+                return;
+            }
             for (int i = 0; i < UserConfigOperator.FieldNames.Count; i++)
             {
                 UserConfigOperator.FieldNamesVisBySector[comboBox1.SelectedIndex][i] = false;
@@ -79,7 +84,6 @@ namespace Exchange_Statistics_Monitor
 
             UserConfigOperator.SaveFieldsFile();
             MessageBox.Show("Сохранено!");
-            this.Close();
         }
 
         private void ButtonCancel_Click(object sender, EventArgs e)

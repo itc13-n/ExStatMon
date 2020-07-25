@@ -50,6 +50,11 @@ namespace Exchange_Statistics_Monitor
 
         private void ButtonSave_Click(object sender, EventArgs e)
         {
+            if (listBoxVisible.Items.Count < 1)
+            {
+                MessageBox.Show("Пожалуйста, выберите хотя бы один столбец для отображения!");
+                return;
+            }
             for (int i = 0; i < UserConfigOperator.FieldNames.Count; i++)
             {
                 UserConfigOperator.FieldNamesVisUnsorted[i] = false;

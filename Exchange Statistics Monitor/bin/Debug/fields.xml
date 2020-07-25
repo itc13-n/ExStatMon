@@ -124,14 +124,14 @@
   </unsorted>
   <bySector>
     <OilAndGas>
-      <field Name="Добычанефти,млнт" visible="0" />
-      <field Name="Переработканефти,млнт" visible="0" />
+      <field Name="Добычанефти,млнт" visible="1" />
+      <field Name="Переработканефти,млнт" visible="1" />
       <field Name="Добычагаза,млрдм3" visible="1" />
       <field Name="Экспортгаза,млрдм3" visible="1" />
-      <field Name="Ценагазанаэкспорт,$/1000м3" visible="0" />
-      <field Name="Выручка,млрдруб" visible="1" />
+      <field Name="Ценагазанаэкспорт,$/1000м3" visible="1" />
+      <field Name="Выручка,млрдруб" visible="0" />
       <field Name="EBITDA,млрдруб" visible="0" />
-      <field Name="Чистаяприбыль,млрдруб" visible="0" />
+      <field Name="Чистаяприбыль,млрдруб" visible="1" />
       <field Name="FCF,млрдруб" visible="0" />
       <field Name="Див.выплата,млрдруб" visible="0" />
       <field Name="Дивиденд,руб/акцию" visible="0" />
