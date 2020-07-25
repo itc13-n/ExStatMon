@@ -217,7 +217,6 @@ namespace Exchange_Statistics_Monitor
             for (int i = 0; i < companies.Count; i++)
             {
                 dGV.Rows[i].HeaderCell.Value = companies[i].Name;
-                dGV.RowHeadersWidth = 100;
                 for (int j = 0; j < dGV.ColumnCount; j++)
                 {
                     dGV.Columns[j].HeaderText = visibleFields[j];
