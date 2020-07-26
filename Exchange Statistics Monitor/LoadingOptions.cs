@@ -96,7 +96,7 @@ namespace Exchange_Statistics_Monitor
         private void LoadingOptions_Load(object sender, EventArgs e)
         {
             toolTip1.AutoPopDelay = 10000;
-            toolTip1.InitialDelay = 500;
+            toolTip1.InitialDelay = 100;
             toolTip1.ReshowDelay = 500;
             toolTip1.ShowAlways = true;
             toolTip1.SetToolTip(this.radioButtonParallel, "Значительно быстрее, чем последовательная, рекомендуется использовать не чаще 1го раза в 2 часа" +

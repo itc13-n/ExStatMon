@@ -45,6 +45,10 @@ namespace Exchange_Statistics_Monitor
 
         private void ButtonShow_Click(object sender, EventArgs e)
         {
+            if (listBoxAll.SelectedItem == null)
+            {
+                return;
+            }
             foreach (string item in listBoxVisible.Items)
             {
                 if (item == listBoxAll.SelectedItem.ToString())
@@ -58,6 +62,10 @@ namespace Exchange_Statistics_Monitor
 
         private void ButtonHide_Click(object sender, EventArgs e)
         {
+            if (listBoxVisible.SelectedItem == null)
+            {
+                return;
+            }
             listBoxVisible.Items.Remove(listBoxVisible.SelectedItem);
         }
 
