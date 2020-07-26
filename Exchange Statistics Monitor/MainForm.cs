@@ -17,6 +17,8 @@ namespace Exchange_Statistics_Monitor
         public static int loadCounter = 10;
         public static int SortIndex = 1;
         public static Form loadScreen;
+        public static bool isParallelEnabled;
+        private static bool loadingInProgress;
 
         public MainForm()
         {
@@ -29,13 +31,25 @@ namespace Exchange_Statistics_Monitor
             tabControl1.TabPages.Add(LayoutTemplates.GetTabPage(SortIndex));
         }
 
+        private Company[] GetCompanies()
+        {
+            List<string[]> comPar = HTMLOperator.GetCompanyParameters(webAddressMain);
+            Company[] companies = new Company[comPar.Count];
+            for (int i = 0; i < comPar.Count; i++)
+            {
+                string[] pair = comPar[i];
+                companies[i] = new Company(pair[0], pair[1]);
+            }
+            return companies;
+        }
+
         private async Task<Company> GetCompany(string parPair1, string parPair2)
         {
             Company company = await Task.Run(() => new Company(parPair1, parPair2));
             return company;
         }
 
-        private async Task<Company[]> GetCompanies()
+        private async Task<Company[]> GetCompaniesAsync()
         {
             List<string[]> comPar = HTMLOperator.GetCompanyParameters(webAddressMain);
             List<Task<Company>> tasks = new List<Task<Company>>();
@@ -85,7 +99,7 @@ namespace Exchange_Statistics_Monitor
                 Form f = new SetColumnsFormBySector();
                 f.ShowDialog();
             }
-            Refresh();
+            RefreshPage();
         }
 
         private void ToolStripButtonRefresh_Click(object sender, System.EventArgs e)
@@ -98,10 +112,26 @@ namespace Exchange_Statistics_Monitor
 
             Form l = new LoadingOptions();
             l.ShowDialog();
-            loadScreen = new LoadingScreen();
-            loadScreen.Show();
+
             Company.SectortsPath = ConfigurationManager.AppSettings["SectorsListPath"];
-            Company[] c = await GetCompanies();
+            Company[] c;
+            if (isParallelEnabled)
+            {
+                loadScreen = new LoadingScreen();
+                loadScreen.Show();
+                loadingInProgress = true;
+                c = await GetCompaniesAsync();
+                loadingInProgress = false;
+            }
+            else
+            {
+                loadScreen = new LoadingScreen();
+                loadScreen.Show();
+                loadingInProgress = true;
+                c = await Task.Run(() => GetCompanies());
+                loadingInProgress = false;
+            }
+            
             UserConfigOperator.InitializeFields(c);
             LayoutTemplates.companies = c;
             this.сортироватьToolStripMenuItem.DropDownItems.AddRange(LayoutTemplates.GetSortMethodsList());
@@ -111,5 +141,14 @@ namespace Exchange_Statistics_Monitor
             loadScreen.Close();
             loadScreen.Dispose();
         }
+
+        private void MainForm_Click(object sender, EventArgs e)
+        {
+            if (loadingInProgress)
+            {
+                loadScreen.Focus();
+            }
+        }
     }
 }
+//successively

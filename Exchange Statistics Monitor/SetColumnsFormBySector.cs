@@ -39,7 +39,6 @@ namespace Exchange_Statistics_Monitor
 
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string s = comboBox1.SelectedItem.ToString();
             listBoxVisible.Items.Clear();
             FillLBVis(comboBox1.SelectedIndex);
         }

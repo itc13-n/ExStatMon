@@ -74,7 +74,7 @@ namespace Exchange_Statistics_Monitor
             string[][] table = new string[rowCount][];
             Array.Resize(ref date, columnCount);
             HtmlNodeCollection rows = htmlTable.SelectNodes("tr");
-            /*     V     */
+                                                                /*     V     */
             int rowIt = 0;//different counter for rows in table (table[ ][ ])
 
             for (int i = 0; i < rows.Count; i++)
@@ -121,7 +121,7 @@ namespace Exchange_Statistics_Monitor
                     else
                     {                                                                                           //                                 
                         table[rowIt][j] = Regex.Replace(currentRowCells[columnNum].InnerText, @"\s+", "");      // common row's cell write to table      
-                    j++;                                                                                    // increment table columns counter      
+                    j++;                                                                                        // increment table columns counter      
                     }
                 }                                                                                                                                    
                 rowIt++;
@@ -173,7 +173,7 @@ namespace Exchange_Statistics_Monitor
 
             if (!allColumnsGood)
             {
-                string[] newDateRow = new string[table[0].Length - badColCount]; // can cause unhandled exceptions
+                string[] newDateRow = new string[table[0].Length - badColCount]; // might cause unhandled exceptions
 
                 bool dateCleared = false;
 

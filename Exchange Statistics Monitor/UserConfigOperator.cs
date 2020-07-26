@@ -68,8 +68,10 @@ namespace Exchange_Statistics_Monitor
             fieldNamesVisUnsorted.Capacity = fieldNames.Count();
             for (int i = 0; i < fieldNamesVisBySector.Length; i++)
             {
-                fieldNamesVisBySector[i] = new List<bool>();
-                fieldNamesVisBySector[i].Capacity = fieldNames.Count();
+                fieldNamesVisBySector[i] = new List<bool>
+                {
+                    Capacity = fieldNames.Count()
+                };
             }
         }
 
@@ -170,6 +172,7 @@ namespace Exchange_Statistics_Monitor
                 fieldNode.Attributes.Append(visible);
                 unsortedNode.AppendChild(fieldNode);
             }
+
             //bySector
             XmlNode bySectorNode = document.CreateElement("bySector");
             rootNode.AppendChild(bySectorNode);
@@ -178,7 +181,7 @@ namespace Exchange_Statistics_Monitor
             {
                 XmlNode sectorNode = document.CreateElement(Sectors.GetAll()[j]);
                 bySectorNode.AppendChild(sectorNode);
-                
+
                 XmlNode sectorFieldNode;
                 XmlAttribute sectorVisible;
                 XmlAttribute sectorName;

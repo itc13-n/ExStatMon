@@ -157,6 +157,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Анализ акций";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Click += new System.EventHandler(this.MainForm_Click);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);

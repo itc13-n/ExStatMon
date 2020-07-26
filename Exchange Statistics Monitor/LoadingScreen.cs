@@ -16,5 +16,17 @@ namespace Exchange_Statistics_Monitor
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            this.TopMost = false;
+        }
+
+        private void LoadingScreen_Load(object sender, EventArgs e)
+        {
+            timer1.Interval = 2000;
+            timer1.Start();
+        }
     }
 }

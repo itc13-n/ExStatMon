@@ -67,7 +67,7 @@
             this.buttonHide.TabIndex = 2;
             this.buttonHide.Text = "Скрыть";
             this.buttonHide.UseVisualStyleBackColor = true;
-            this.buttonHide.Click += new System.EventHandler(this.buttonHide_Click);
+            this.buttonHide.Click += new System.EventHandler(this.ButtonHide_Click);
             // 
             // buttonShow
             // 
@@ -78,7 +78,7 @@
             this.buttonShow.TabIndex = 3;
             this.buttonShow.Text = "Показать";
             this.buttonShow.UseVisualStyleBackColor = true;
-            this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
+            this.buttonShow.Click += new System.EventHandler(this.ButtonShow_Click);
             // 
             // buttonSave
             // 

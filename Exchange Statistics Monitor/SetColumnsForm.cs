@@ -30,7 +30,7 @@ namespace Exchange_Statistics_Monitor
             }
         }
 
-        private void buttonShow_Click(object sender, EventArgs e)
+        private void ButtonShow_Click(object sender, EventArgs e)
         {
             foreach (string item in listBoxVisible.Items)
             {
@@ -43,7 +43,7 @@ namespace Exchange_Statistics_Monitor
             listBoxVisible.Items.Add(listBoxAll.SelectedItem);
         }
 
-        private void buttonHide_Click(object sender, EventArgs e)
+        private void ButtonHide_Click(object sender, EventArgs e)
         {
             listBoxVisible.Items.Remove(listBoxVisible.SelectedItem);
         }
